@@ -1,0 +1,4 @@
+:stylesheet: /home/user/repos/medved-palace.github.io/css/dark.css
+= Medved's home
+
+
