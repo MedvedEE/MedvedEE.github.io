@@ -1,0 +1,13 @@
+:stylesheet: /home/user/repos/MedvedEE.github.io/css/dark.css
+
+
+= OOP 2023 Rühmatöö Panga simulaator.
+
+== Autorid
+* Leive Turi
+* Kaur Kullamäe
+
+== Kirjeldus
+
+== Kasutus
+
