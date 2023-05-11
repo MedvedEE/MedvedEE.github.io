@@ -1,14 +1,14 @@
 :stylesheet: /home/user/repos/MedvedEE.github.io/css/dark.css
 
 
-= OOP 2023 Rühmatöö Panga simulaator.
+= Panga simulaator.
 
 == Autorid
 * Leive Turi
 * Kaur Kullamäe
 
 == Kirjeldus
-**Panga simulaator**
+**Panga simulaator** + 
 * Antud rühmatöö tulemusena valmis simulatsioon panga kasutamisest.
 Selle programmiga saab luua panka oma konto, kui konto on olemas siis saab sisse logida. 
 Kui kontot pole, siis registreerimiseks peab sisestama oma ees- ja perekonna nime, lisaks ka (tugev)parool.
@@ -19,23 +19,23 @@ Kõiki andmeid hoitakse turvaliselt tekstifailis.
 
 == Kasutamine
 
-* Kui soovid sisse logida, sisesta oma nimi ja parool. Kui kontot pole andmebaasis, siis sisse ei saa. +
+* Kui soovid sisse logida, sisesta oma nimi ja parool. Kui kontot pole andmebaasis, siis sisse ei saa.
 
-image::../../src/images/failedlogin.png[Failed] +
+image::../../src/images/failedlogin.png[Failed]
 
 
-* Selle asemel tuleb vajutada "uus klient" nuppu, ja seejärel luukase sulle uus konto! + 
+* Selle asemel tuleb vajutada "uus klient" nuppu, ja seejärel luukase sulle uus konto! 
 
-image::../../src/images/successfullogin.png[Yes] + 
+image::../../src/images/successfullogin.png[Yes]
 
 
 * Nagu pildild näha, on seal kirjas nii kontonumber, kui ka kontojääk. +
-* Kui peaks olema palju entusiasmi ja proovida võtta kontojäägist 0 raha ära, siis seda kahjuks ei lasta teha ja tuleb ette kuri punane tekst. Kontolt saab raha ära võtta kui panna alla lahtrisse summa, mida tahetakse ära võtta ja selle ette miinusmärk. Seejärel vajutada muidugi nuppu "soorita tehing". +
+* Kui peaks olema palju entusiasmi ja proovida võtta kontojäägist 0 raha ära, siis seda kahjuks ei lasta teha ja tuleb ette kuri punane tekst. Kontolt saab raha ära võtta kui panna alla lahtrisse summa, mida tahetakse ära võtta ja selle ette miinusmärk. Seejärel vajutada muidugi nuppu "soorita tehing". 
 
-image::../../src/images/failedmoneytake.png[NoMoney] +
+image::../../src/images/failedmoneytake.png[NoMoney] 
 
 
-* Selle parandamiseks tuleb ennem kontole raha panna, nagu pildil kujutatud on. Nüüd suurenes ka kontojääk. Kui nüüd üritada kontolt raha ära võtta, lastakse seda ka teha. +
+* Selle parandamiseks tuleb ennem kontole raha panna, nagu pildil kujutatud on. Nüüd suurenes ka kontojääk. Kui nüüd üritada kontolt raha ära võtta, lastakse seda ka teha. 
 
-image::../../src/images/yesmoneygive.png[YesMoney] +
+image::../../src/images/yesmoneygive.png[YesMoney]
 
