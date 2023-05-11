@@ -16,8 +16,8 @@
 * Pärast registreerimist, genereeritakse sulle personaalne kontonimi.
 * Pangas sees olles saab raha juurde lisada ja soovi korral ka raha välja võtta(kui on võimalik).
 * Lisaks kuvatakse ka Sinu olemasoleva konto andmeid, kui õnnestus sisse logida. 
-* Kõiki andmeid hoitakse turvaliselt tekstifailis.
-
+* Kõiki andmeid hoitakse turvaliselt (andmebaasis)tekstifailis.
+* Andmebaasis kajastub sinu nimi, kontonumber ja kontojääk
 == Kasutamine
 
 * Kui soovid sisse logida, sisesta oma nimi ja parool. Kui kontot pole andmebaasis, siis sisse ei saa.

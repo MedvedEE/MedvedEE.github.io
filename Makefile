@@ -18,7 +18,7 @@ $(HTML_DIR)/%.html: $(SRC_DIR)/%.asciidoc
 	$(ASCIIDOCTOR) -o $@ $<
 
 # Targets
-all: html special_html
+all: html special_html git
 
 html: $(HTML_OUTPUT_FILES)
 
@@ -26,3 +26,8 @@ special_html: $(SPECIAL_HTML_OUTPUT_FILES)
 
 clean:
 	rm -rf $(HTML_DIR) $(SPECIAL_HTML_OUTPUT_FILES)
+
+git:
+	git add .
+	git commit -m "Update"
+	git push -u origin main
