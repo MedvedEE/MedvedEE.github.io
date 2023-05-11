@@ -9,13 +9,14 @@
 
 == Kirjeldus
 **Panga simulaator** + 
+
 * Antud rühmatöö tulemusena valmis simulatsioon panga kasutamisest.
-Selle programmiga saab luua panka oma konto, kui konto on olemas siis saab sisse logida. 
-Kui kontot pole, siis registreerimiseks peab sisestama oma ees- ja perekonna nime, lisaks ka (tugev)parool.
-Pärast registreerimist, genereeritakse sulle personaalne kontonimi.
-Pangas sees olles saab raha juurde lisada ja soovi korral ka raha välja võtta(kui on võimalik).
-Lisaks kuvatakse ka Sinu olemasoleva konto andmeid, kui õnnestus sisse logida. 
-Kõiki andmeid hoitakse turvaliselt tekstifailis.
+* Selle programmiga saab luua panka oma konto, kui konto on olemas siis saab sisse logida. 
+* Kui kontot pole, siis registreerimiseks peab sisestama oma ees- ja perekonna nime, lisaks ka (tugev)parool.
+* Pärast registreerimist, genereeritakse sulle personaalne kontonimi.
+* Pangas sees olles saab raha juurde lisada ja soovi korral ka raha välja võtta(kui on võimalik).
+* Lisaks kuvatakse ka Sinu olemasoleva konto andmeid, kui õnnestus sisse logida. 
+* Kõiki andmeid hoitakse turvaliselt tekstifailis.
 
 == Kasutamine
 
