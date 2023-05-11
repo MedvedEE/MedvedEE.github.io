@@ -20,14 +20,18 @@ $(HTML_DIR)/%.html: $(SRC_DIR)/%.asciidoc
 # Targets
 all: html special_html git
 
+#html directory
 html: $(HTML_OUTPUT_FILES)
 
+#Index file, that can't be in a folder imo
 special_html: $(SPECIAL_HTML_OUTPUT_FILES)
 
+#Clean HTML files
 clean:
 	rm -rf $(HTML_DIR) $(SPECIAL_HTML_OUTPUT_FILES)
 
-git:
+#Git everything
+git: 
 	git add .
 	git commit -m "Update"
 	git push -u origin main

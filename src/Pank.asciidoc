@@ -18,6 +18,7 @@
 * Lisaks kuvatakse ka Sinu olemasoleva konto andmeid, kui õnnestus sisse logida. 
 * Kõiki andmeid hoitakse turvaliselt (andmebaasis)tekstifailis.
 * Andmebaasis kajastub sinu nimi, kontonumber ja kontojääk
+
 == Kasutamine
 
 * Kui soovid sisse logida, sisesta oma nimi ja parool. Kui kontot pole andmebaasis, siis sisse ei saa.
