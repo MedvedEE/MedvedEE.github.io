@@ -7,6 +7,6 @@
 
 
 === Veebilehtede loomine edasijõudnutele
-* link:VLE_cookbook/index.html[VLE Ülesanne 1]
+* link:VLE_cookbook/index.html[VLE Ülesanne 2]
 
 
