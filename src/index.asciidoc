@@ -2,4 +2,6 @@
 = Medved's home
 
 * xref:html/Pank.html [Rühmatöö]
+VLE: link:VLE_cookbook/index.html[VLE]
+
 
