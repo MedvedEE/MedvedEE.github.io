@@ -1,0 +1,4 @@
+[submodule "VLE_cookbook"]
+    path = VLE_cookbook
+    url = https://github.com/MedvedEE/VLE_cookbook
+
