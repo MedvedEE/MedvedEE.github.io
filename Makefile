@@ -33,5 +33,5 @@ clean:
 #Git everything
 git: 
 	git add .
-	git commit -m "Update"
+	git commit -m "Doing asciidoc"
 	git push -u origin main
