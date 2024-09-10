@@ -1,7 +1,10 @@
 :stylesheet: /home/user/repos/medved-palace.github.io/css/dark.css
 = Medved's home
 
-* xref:html/Pank.html [Rühmatöö]
-VLE: link:VLE_cookbook/index.html[VLE]
+
+== Koolitööd
+* xref:html/Pank.html [OOP Rühmatöö]
+=== Veebilehtede loomine edasijõudnutele
+* link:VLE_cookbook/index.html[VLE Ülesanne 1]
 
 
