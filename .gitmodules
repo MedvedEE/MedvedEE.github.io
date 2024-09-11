@@ -2,3 +2,6 @@
     path = VLE_cookbook
     url = https://github.com/MedvedEE/VLE_cookbook
 
+[submodule "VLE_Bootstrap"]
+	path = VLE_Bootstrap
+	url = https://github.com/MedvedEE/VLE_Bootstrap
