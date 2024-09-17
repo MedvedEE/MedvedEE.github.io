@@ -35,4 +35,3 @@ git:
 	git add .
 	git commit -m "Doing asciidoc"
 	git push -u origin main
-
