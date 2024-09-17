@@ -18,7 +18,7 @@ $(HTML_DIR)/%.html: $(SRC_DIR)/%.asciidoc
 	$(ASCIIDOCTOR) -o $@ $<
 
 # Targets
-all: html special_html VLE git
+all: html special_html git
 
 #html directory
 html: $(HTML_OUTPUT_FILES)
@@ -36,10 +36,3 @@ git:
 	git commit -m "Doing asciidoc"
 	git push -u origin main
 
-
-VLE:
-	cd VLE_Bootstrap
-	git add .
-	git commit -m "Bugfix"
-	git push
-	cd ..
