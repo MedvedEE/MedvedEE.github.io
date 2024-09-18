@@ -21,21 +21,23 @@ $(HTML_DIR)/%.html: $(SRC_DIR)/%.asciidoc
 # Targets
 all: html special_html VLE git
 
-#html directory
+# html directory
 html: $(HTML_OUTPUT_FILES)
 
-#Index file, that can't be in a folder imo
+# Index file, that can't be in a folder imo
 special_html: $(SPECIAL_HTML_OUTPUT_FILES)
 
-#Clean HTML files
+# Clean HTML files
 clean:
 	rm -rf $(HTML_DIR) $(SPECIAL_HTML_OUTPUT_FILES)
 
-#Git everything
+# Git everything
 git: 
 	git add .
 	git commit -m "Doing asciidoc"
 	git push -u origin main
 
+
+# Submodule git
 VLE:
 	(cd $(VLE_DIR) && git add . && git commit -m "Updating VLE " && git push -u origin main)
