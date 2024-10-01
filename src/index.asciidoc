@@ -11,3 +11,5 @@
 
 
 * link:VLE_Bootstrap/index.html[VLE Ülesanne 3. Bootstrap]
+
+* link:VLE_JS/index.html[VLE Ülesanne 5. Ostukorvi scripti täiendamine]
