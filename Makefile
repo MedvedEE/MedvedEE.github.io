@@ -3,7 +3,7 @@ ASCIIDOCTOR = asciidoctor
 SRC_DIR = src
 HTML_DIR = html
 SPECIAL_HTML_DIR = special_html # Index file, otherwise website wont work
-VLE_DIR = VLE_Bootstrap
+VLE_DIR = VLE_JS
 
 # Find all AsciiDoc source files in the source directory
 SRC_FILES := $(wildcard $(SRC_DIR)/*.asciidoc)

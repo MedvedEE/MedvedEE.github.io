@@ -5,3 +5,7 @@
 [submodule "VLE_Bootstrap"]
 	path = VLE_Bootstrap
 	url = https://github.com/MedvedEE/VLE_Bootstrap
+
+[submodule "VLE_JS"]
+	path = VLE_JS
+	url = https://github.com/MedvedEE/VLE_JS
