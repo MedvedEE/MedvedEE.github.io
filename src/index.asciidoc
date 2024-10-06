@@ -9,7 +9,6 @@
 === Veebilehtede loomine edasijõudnutele
 * link:VLE_cookbook/index.html[VLE Ülesanne 2. Cookbook]
 
-
 * link:VLE_Bootstrap/index.html[VLE Ülesanne 3. Bootstrap]
 
 * link:VLE_JS/index.html[VLE Ülesanne 5. Ostukorvi scripti täiendamine]
